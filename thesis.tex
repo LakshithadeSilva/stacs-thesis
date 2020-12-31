@@ -1,0 +1,211 @@
+%
+% Thesis - Main
+% Lakshitha de Silva
+% School of Computer Science
+% University of St Andrews, Scotland, UK
+% 2014
+%
+
+\documentclass{stacsthesis}
+
+%
+% Packages
+%
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{tabulary}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{pifont}
+\usepackage[nointegrals]{wasysym}
+\usepackage{syntax}
+\usepackage{textcomp}
+\usepackage[font=small,labelfont=bf,skip=16pt]{caption}
+\usepackage{hyperref}
+\usepackage[toc,acronym,nonumberlist,nomain]{glossaries}		% This has to load after hyperref package
+
+%
+% Compiler warnings
+%
+\hfuzz=10pt 
+\vfuzz=10pt
+\hbadness=10000
+\vbadness=10000
+
+%
+% Configure code listings
+%
+\lstset {
+	language=Java,
+	basicstyle=\footnotesize\ttfamily\singlespacing,
+	showstringspaces=false,
+	keywordstyle=\color[RGB]{0, 0, 240},
+	stringstyle=\color[RGB]{240, 0, 0},
+	commentstyle=\color[RGB]{0, 144, 0},
+	numberstyle=\tiny,
+	basewidth=0.54em,
+	tabsize=2,
+	captionpos=b,
+	frame=tb,
+	framesep=10pt,
+	aboveskip=8pt,
+	belowskip=0pt,
+	abovecaptionskip = 16pt,
+	breakindent=24pt,
+	breaklines=true,
+	numberbychapter=true
+}
+
+%
+% Console output
+%
+\lstdefinestyle{console} {
+	language=bash,
+	basicstyle=\footnotesize\ttfamily\singlespacing,
+	backgroundcolor=\color[RGB]{248, 247, 242},
+	upquote=true,
+	frame=single,
+	framerule=0pt,
+	breakindent=0pt,
+	breaklines=true,
+	aboveskip=0pt,
+	belowskip=4pt,
+	xleftmargin=10pt,
+	xrightmargin=10pt
+}
+
+%
+% Inline coding listing commands
+%
+\def\javacode{\lstinline[basicstyle=\bfseries\ttfamily,basewidth=0.48em,language=Java]}
+
+%
+% Configure caption and sub-caption styles
+%
+\newsubfloat{figure}
+\captionnamefont{\bfseries\small}
+\captiontitlefont{\small}
+\subcaptionlabelfont{\bfseries\footnotesize}
+\subcaptionfont{\footnotesize}
+
+%
+% Customise titles names
+%
+\bibtitle{References}
+
+%
+% Customise toc
+%
+\maxtocdepth{subsection}
+
+%
+% Customise glossary
+%
+\renewcommand*{\glspostdescription}{}				% Remove dot at the end of glossary items
+\makeglossaries								% Generate glossary
+
+%
+% Chapter and page style
+%
+\chapterstyle{stacs-chap}
+\pagestyle{stacs-pg}
+
+%
+% Control word hyphenation
+%
+\hyphenpenalty=512
+\tolerance=1024
+\emergencystretch=4pt
+\hyphenation{
+	arti-ficial com-puter imple-ment imple-men-tation imple-men-ting frame-work
+	Java
+}
+
+%
+% Title page
+%
+\begin{document}
+\hypersetup{pageanchor=false}
+\title{Towards Controlling Software Architecture Erosion Through Runtime Conformance Monitoring}
+\author{Lakshitha de Silva}
+\school{School of Computer Science}
+\degree{Doctor of Philosophy}
+\submittextA{This thesis is submitted in partial fulfilment for the degree of}
+\submittextB{at the University of St Andrews}
+\submitdate{May 2014}
+\maketitle
+
+%
+% Prologue
+%
+\include{prologue/abstract}
+\include{prologue/acknowledgements}
+\include{prologue/declaration}
+\include{prologue/permissions}
+\include{prologue/dedication}
+\include{prologue/glossary}
+
+%
+% Tables of contents/figures/tables and glossary
+%
+\cleardoublepage
+\hypersetup{pageanchor=true}
+\pagenumbering{roman}
+\tableofcontents
+\newpage\listoffigures
+\newpage\listoftables
+\newpage\lstlistoflistings
+\printglossaries
+
+%
+% Mainmatter properties
+%
+\mainmatter
+\onehalfspacing
+\pagenumbering{arabic}
+\setlength{\parskip}{3mm}
+\setlength{\parindent}{0mm}
+\setlist[enumerate]{leftmargin=*,labelsep=0.8em,topsep=0em,parsep=0.6em}
+\setlist[itemize]{leftmargin=*,labelsep=1.0em,topsep=0em,parsep=0.6em,label=\normalsize\textbullet}
+\newenvironment{itemize*}			% Itemising environment for single-lined items
+	{\begin{itemize}					% Interline spacing has been adjusted in this case to
+    		\setlength{\itemsep}{0.016em}}	% make the itemised text look more consistent with the rest
+     	{\end{itemize}}
+
+%
+% Graphics directories
+%
+\graphicspath{
+	{chap1/}
+	{chap2/}
+	{chap3/}
+	{chap4/}
+	{appA/}
+	{appB/}
+}
+
+%
+% Chapters
+%
+\include{chap1/doc}
+\include{chap2/doc}
+\include{chap3/doc}
+\include{chap4/doc}
+
+%
+% Appendices
+%
+\appendix
+\include{appA/doc}
+\include{appB/doc}
+
+%
+% Bibliography
+%
+\bibliographystyle{apalike}
+\bibliography{thesis}
+
+\end{document}

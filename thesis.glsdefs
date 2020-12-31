@@ -1,0 +1,210 @@
+\ifglsentryexists{vm}{}%
+{%
+\gls@defglossaryentry{vm}%
+{%
+name={VM},%
+sort={VM},%
+type={acronym},%
+first={virtual machine\glsspace (VM)},%
+firstplural={virtual machines\glsspace (VMs)},%
+text={VM},%
+plural={VMs},%
+description={virtual machine},%
+descriptionplural={virtual machine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={virtual machine},%
+longplural={virtual machines},%
+short={VM},%
+shortplural={VMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{jvm}{}%
+{%
+\gls@defglossaryentry{jvm}%
+{%
+name={JVM},%
+sort={JVM},%
+type={acronym},%
+first={Java virtual machine\glsspace (JVM)},%
+firstplural={Java virtual machines\glsspace (JVMs)},%
+text={JVM},%
+plural={JVMs},%
+description={Java virtual machine},%
+descriptionplural={Java virtual machine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Java virtual machine},%
+longplural={Java virtual machines},%
+short={JVM},%
+shortplural={JVMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{jre}{}%
+{%
+\gls@defglossaryentry{jre}%
+{%
+name={JRE},%
+sort={JRE},%
+type={acronym},%
+first={Java runtime environment\glsspace (JRE)},%
+firstplural={Java runtime environments\glsspace (JREs)},%
+text={JRE},%
+plural={JREs},%
+description={Java runtime environment},%
+descriptionplural={Java runtime environment\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Java runtime environment},%
+longplural={Java runtime environments},%
+short={JRE},%
+shortplural={JREs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cpu}{}%
+{%
+\gls@defglossaryentry{cpu}%
+{%
+name={CPU},%
+sort={CPU},%
+type={acronym},%
+first={central processing unit\glsspace (CPU)},%
+firstplural={central processing units\glsspace (CPUs)},%
+text={CPU},%
+plural={CPUs},%
+description={central processing unit},%
+descriptionplural={central processing unit\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={central processing unit},%
+longplural={central processing units},%
+short={CPU},%
+shortplural={CPUs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uml}{}%
+{%
+\gls@defglossaryentry{uml}%
+{%
+name={UML},%
+sort={UML},%
+type={acronym},%
+first={Unified Modelling Language\glsspace (UML)},%
+firstplural={Unified Modelling Languages\glsspace (UMLs)},%
+text={UML},%
+plural={UMLs},%
+description={Unified Modelling Language},%
+descriptionplural={Unified Modelling Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unified Modelling Language},%
+longplural={Unified Modelling Languages},%
+short={UML},%
+shortplural={UMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ide}{}%
+{%
+\gls@defglossaryentry{ide}%
+{%
+name={IDE},%
+sort={IDE},%
+type={acronym},%
+first={integrated development environment\glsspace (IDE)},%
+firstplural={integrated development environments\glsspace (IDEs)},%
+text={IDE},%
+plural={IDEs},%
+description={integrated development environment},%
+descriptionplural={integrated development environment\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={integrated development environment},%
+longplural={integrated development environments},%
+short={IDE},%
+shortplural={IDEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mvc}{}%
+{%
+\gls@defglossaryentry{mvc}%
+{%
+name={MVC},%
+sort={MVC},%
+type={acronym},%
+first={Model-View-Controller\glsspace (MVC)},%
+firstplural={Model-View-Controllers\glsspace (MVCs)},%
+text={MVC},%
+plural={MVCs},%
+description={Model-View-Controller},%
+descriptionplural={Model-View-Controller\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Model-View-Controller},%
+longplural={Model-View-Controllers},%
+short={MVC},%
+shortplural={MVCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -1,0 +1,52 @@
+\begin{thebibliography}{}
+
+\bibitem[Dalgarno, 2009]{Dalgar2009}
+Dalgarno, M. (2009).
+\newblock When good architecture goes bad.
+\newblock {\em Methods and Tools}, 17(1):27--34.
+
+\bibitem[Eick et~al., 2001]{Eick2001}
+Eick, S.~G., Graves, T.~L., Karr, A.~F., Marron, J.~S., and Mockus, A. (2001).
+\newblock Does code decay? {A}ssessing the evidence from change management
+  data.
+\newblock {\em IEEE Transactions on Software Engineering}, 27(1):1--12.
+
+\bibitem[Hochstein and Lindvall, 2005]{Hoch2003}
+Hochstein, L. and Lindvall, M. (2005).
+\newblock Combating architectural degeneration: A survey.
+\newblock {\em Information and Software Technology}, 47(10):643--656.
+
+\bibitem[Izurieta and Bieman, 2007]{Izur2007}
+Izurieta, C. and Bieman, J. (2007).
+\newblock How software designs decay: A pilot study of pattern evolution.
+\newblock In {\em Proceedings of the 1st International Symposium on Empirical
+  Software Engineering and Measurement}, pages 449--451. IEEE.
+
+\bibitem[Jacobson, 1992]{Jacob1992}
+Jacobson, I. (1992).
+\newblock {\em Object-oriented software engineering}.
+\newblock Addison Wesley.
+
+\bibitem[Perry and Wolf, 1992]{Perry1992}
+Perry, D.~E. and Wolf, A.~L. (1992).
+\newblock Foundations for the study of software architecture.
+\newblock {\em ACM SIGSOFT Software Engineering Notes}, 17(4):40--52.
+
+\bibitem[Riaz et~al., 2009]{Riaz2009}
+Riaz, M., Sulayman, M., and Naqvi, H. (2009).
+\newblock Architectural decay during continuous software evolution and impact
+  of {`Design for Change'} on software architecture.
+\newblock In {\em Proceedings of the International Conference on Advanced
+  Software Engineering and Its Applications}, pages 119--126. Springer.
+
+\bibitem[Stringfellow et~al., 2006]{String2006}
+Stringfellow, C., Amory, C., Potnuri, D., Andrews, A., and Geor, M. (2006).
+\newblock Comparison of software architecture reverse engineering methods.
+\newblock {\em Information and Software Technology}, 48(7):484--497.
+
+\bibitem[van Gurp and Bosch, 2002]{Gurp2002}
+van Gurp, J. and Bosch, J. (2002).
+\newblock Design erosion: Problems and causes.
+\newblock {\em Journal of Systems and Software}, 61(2):105--119.
+
+\end{thebibliography}
